@@ -3,6 +3,7 @@ import CardList from "../components/CardList";
 import Searchbox from "../components/Searchbox";
 import Scroll from "../components/Scroll";
 import ErrorBoundary from "../components/ErrorBoundary";
+import Footer from "../components/Footer"
 import "./App.css";
 
 class App extends Component{
@@ -42,6 +43,7 @@ class App extends Component{
                             <CardList robots={filteredRobots}/>
                         </ErrorBoundary>
                     </Scroll>
+                    <Footer/>
                 </div>
         }
     }
